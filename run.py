@@ -7,6 +7,9 @@ from vk_api import VkUpload
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 import time
 
+if not os.path.exists('output_images'):
+   os.makedirs('output_images')
+
 config = configparser.ConfigParser()
 config.read("config.ini")
 
