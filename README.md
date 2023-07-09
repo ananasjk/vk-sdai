@@ -93,7 +93,9 @@ path - путь до директории stable-diffusion-webui, обязате
 python run.py
 ```
 
-В параметрах запуска launcher.bat добавить пункты --api и --port 7861
+Или launch.bat
+
+В параметрах запуска stable diffusion (launcher.bat по умолчанию) добавить пункты --api и --port 7861
 
 Рекомендую создать файл запуска прямо в директории vk-sdai, вида:
 
