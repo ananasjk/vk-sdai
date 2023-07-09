@@ -1,0 +1,4 @@
+Pillow==10.0.0
+pyfiglet==0.8.post1
+Requests==2.31.0
+vk_api==11.9.9
